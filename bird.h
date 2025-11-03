@@ -28,3 +28,27 @@ public:
         std::cout << species << " has died" << std::endl;
      }
 };
+
+
+class Duck : public Bird {
+public:
+    Duck();
+    ~Duck() override;
+    void cry() override;
+};
+
+class Penguin : public Bird {
+public:
+    Penguin();
+    ~Penguin() override;
+    void cry() override;
+    void fly() override; // can't fly
+};
+
+class Eagle : public Bird {
+public:
+    Eagle();
+    ~Eagle() override;
+    void cry() override;
+    void swim() override; // can't swim
+};

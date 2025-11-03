@@ -89,7 +89,7 @@ This bird can't swim.
 ----------------------
 Quack!
 Duck has died
-Squawk!
+Squawk! //쓰껄~
 Penguin has died
 Screech!
 Eagle has died
